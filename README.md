@@ -1,7 +1,7 @@
 # TDI · Ejemplos de teoría
 
 Material de **Tratamiento Digital de la Información** para leer ejemplos y experimentar con sus parámetros.
-La colección contiene cinco ejemplos del **tema 3: codificación de canal** y cuatro del **tema 4: fundamentos del procesado estadístico**.
+La colección contiene cuatro ejemplos del **tema 2: teoría de la información**, cinco del **tema 3: codificación de canal** y cuatro del **tema 4: fundamentos del procesado estadístico**.
 
 **[Abrir la web de ejemplos](https://msepulcre.github.io/tdi-ejemplos/)**
 
@@ -14,6 +14,10 @@ Los cambios realizados en una sesión de Colab no modifican los cuadernos origin
 
 | Apartado | Ejemplo | Experimentar |
 |---|---|---|
+| 2.1–2.2 | [Información y entropía: sorpresa de un símbolo y promedio de una fuente](vista_previa/tema_2_01_informacion_y_entropia.html) | [Abrir en Colab](https://colab.research.google.com/github/msepulcre/tdi-ejemplos/blob/main/tema_2/01_informacion_y_entropia.ipynb) |
+| 2.3–2.4 | [Shannon–Fano y Huffman: evaluar códigos dados y cambios en la fuente](vista_previa/tema_2_02_shannon_fano_huffman_y_bloques.html) | [Abrir en Colab](https://colab.research.google.com/github/msepulcre/tdi-ejemplos/blob/main/tema_2/02_shannon_fano_huffman_y_bloques.ipynb) |
+| 2.4 | [Codificación aritmética: interpretar un intervalo y presupuestar los bits](vista_previa/tema_2_03_codificacion_aritmetica.html) | [Abrir en Colab](https://colab.research.google.com/github/msepulcre/tdi-ejemplos/blob/main/tema_2/03_codificacion_aritmetica.ipynb) |
+| 2.5 | [LZ78: analizar frases dadas y el coste de las referencias](vista_previa/tema_2_04_lz78_diccionario_y_repeticiones.html) | [Abrir en Colab](https://colab.research.google.com/github/msepulcre/tdi-ejemplos/blob/main/tema_2/04_lz78_diccionario_y_repeticiones.ipynb) |
 | 3.1 | [Capacidad del canal: ancho de banda, potencia y ruido](vista_previa/tema_3_01_capacidad_del_canal.html) | [Abrir en Colab](https://colab.research.google.com/github/msepulcre/tdi-ejemplos/blob/main/tema_3/01_capacidad_del_canal.ipynb) |
 | 3.1–3.2 | [Distancia de Hamming: detectar no es lo mismo que corregir](vista_previa/tema_3_02_distancia_y_errores.html) | [Abrir en Colab](https://colab.research.google.com/github/msepulcre/tdi-ejemplos/blob/main/tema_3/02_distancia_y_errores.ipynb) |
 | 3.2 | [Reed–Solomon: del mensaje a una palabra de símbolos de varios bits](vista_previa/tema_3_03_reed_solomon_simbolos.html) | [Abrir en Colab](https://colab.research.google.com/github/msepulcre/tdi-ejemplos/blob/main/tema_3/03_reed_solomon_simbolos.ipynb) |
@@ -33,4 +37,6 @@ para los cálculos y no descargan datos ni instalan paquetes automáticamente.
 En la web, pulsa **Abrir en Colab** para experimentar en el navegador. Las instrucciones están dentro del cuaderno.
 También puedes descargar el archivo .ipynb y abrirlo en Jupyter local con NumPy y Matplotlib.
 
-Los ejemplos de los temas 3 y 4 están aprobados. Cada tarjeta ofrece lectura HTML, apertura en Colab y descarga del cuaderno .ipynb.
+Los ejemplos de los temas 2, 3 y 4 están aprobados. Cada tarjeta ofrece lectura HTML, apertura en Colab y descarga del cuaderno .ipynb.
+
+Los ejemplos de compresión del tema 2 analizan códigos, intervalos y frases dados y permiten variar parámetros de los problemas. No incluyen implementaciones de Huffman, Shannon–Fano, codificación aritmética ni LZ78.
